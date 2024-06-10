@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './componentes/Header/header';
+import Header from './componentes/Header/Header';
 console.log(Header);
 
 function App() {
   return (
-    <div className="App">
-      {Header()}
-      <Header></Header>
+    <div className="App"> 6278f7
+      <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

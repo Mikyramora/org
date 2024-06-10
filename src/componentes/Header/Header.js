@@ -1,5 +1,9 @@
+import "./header.css"
+
 function Header(){
-    return <img src= "/img/HeaderHeader_total.png" alt='Org' />
+    return <header>
+    <img src= "/img/HeaderHeader_total.png" alt='Org' />
+    </header>
 
 }
 
