@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './componentes/Header/header';
+console.log(Header);
 
 function App() {
   return (
     <div className="App">
+      {Header()}
+      <Header></Header>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hola mundo con React
         </p>
         <a
           className="App-link"
@@ -15,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprende React
         </a>
       </header>
     </div>
