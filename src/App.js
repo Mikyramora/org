@@ -145,7 +145,7 @@ function App() {
   }
 
 
-  //Crear equipo
+  //Crear equipo a
 
   const crearEquipo = (nuevoEquipo) =>{
     console.log(nuevoEquipo);
